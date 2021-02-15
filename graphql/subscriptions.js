@@ -7,6 +7,7 @@ export const onCreatePost = /* GraphQL */ `
       id
       title
       content
+      username
       createdAt
       updatedAt
     }
@@ -18,6 +19,7 @@ export const onUpdatePost = /* GraphQL */ `
       id
       title
       content
+      username
       createdAt
       updatedAt
     }
@@ -29,6 +31,7 @@ export const onDeletePost = /* GraphQL */ `
       id
       title
       content
+      username
       createdAt
       updatedAt
     }
